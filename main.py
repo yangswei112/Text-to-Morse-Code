@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from flask_bootstrap import Bootstrap5
 from converter import TextToMorse
-import requests
 
 app = Flask(__name__)
 cv = TextToMorse()
